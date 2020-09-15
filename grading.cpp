@@ -44,8 +44,8 @@ int main()
 
 	// Taking averge of the student marks and calculating percentage
 
-	Avg = MarksObtained / 5;
-	Percentage = (MarksObtained * 100) / 500;
+	Avg = MarksObtained / MAX_SUBJECTS;
+	Percentage = (MarksObtained * 100) / (MAX_SUBJECTS * 100);
 
 	// Printing the Mark Sheet output
 
