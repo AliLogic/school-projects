@@ -49,10 +49,10 @@ int main()
 
 	// Printing the Mark Sheet output
 
-	std::cout << "\n****** Mark Sheet ******";
-	std::cout << "\nMarks Obtained: " << MarksObtained;
-	std::cout << "\nAverage Marks: " << Avg;
-	std::cout << "\nPercentage: " << Percentage << "\n";
+	std::cout << "****** Mark Sheet ******" << std::endl;
+	std::cout << "Marks Obtained: " << MarksObtained << std::endl;
+	std::cout << "Average Marks: " << Avg << std::endl;
+	std::cout << "Percentage: " << Percentage << std::endl;
 
 	// Now we'll check if the student is fail in any or subject or not
 	// If they are, we'll straight grade them as 'F'.
