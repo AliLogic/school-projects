@@ -59,6 +59,11 @@ int main()
 
 	for (int i = (sizeof Subject / sizeof *Subject) - 1; i != -1; i --)
 	{
+		if (Subject[i] >= 50)
+		{
+			continue;
+		}
+		
 		std::cout << "Grade: F";
 		return 0;
 	}
