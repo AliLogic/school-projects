@@ -1,3 +1,8 @@
+/*
+	Write a program to calculate the grades using else-if statements.
+	Take input of Five subjects and find Average marks and Overall Grade.
+*/
+
 #include <iostream>
 
 #define	MAX_SUBJECTS	5
